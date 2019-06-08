@@ -1,3 +1,6 @@
+# Construct the plot Time Vs Sub Metric 1, 2 and 3 and save it to a PNG file with a 
+# width of 480 pixels and a height of 480 pixels
+
 plot(data$Time,data$Sub_metering_1, type="l", xlab="", ylab="Energy sub metering")
 lines(data$Time,data$Sub_metering_2,col="red")
 lines(data$Time,data$Sub_metering_3,col="blue")
