@@ -1,3 +1,9 @@
+# Construct the 4 plots 
+# Time Vs Global Active Power
+# Time Vs Voltage
+# Time Vs Sub Metric 1, 2 and 3
+# Time Vs Global Reactive Power
+# and save it to a PNG file with a width of 480 pixels and a height of 480 pixels
 par(mfrow = c(2, 2))
 plot(data$Time, data$Global_active_power, type="l", 
      xlab = "", ylab = "Global Active Power")
